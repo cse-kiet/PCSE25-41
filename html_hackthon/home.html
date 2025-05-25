@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Planning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1d2634;
+            color: #fff;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+       
+
+        .button {
+            position: absolute;
+            top: 75%; /* Adjust the vertical position */
+            left: 15%; /* Adjust the horizontal position */
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 123, 255, 0.6); /* Semi-transparent blue background */
+            color: #fff; /* White text color */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s; /* Add a transition for hover effect */
+        }
+
+        .button:hover {
+            background-color: rgba(0, 86, 179, 0.8); /* Darker semi-transparent blue on hover */
+        }
+
+       
+        h1 {
+            font-size: 36px;
+        }
+        .reviews {
+            background-color: #1d2634;
+            padding: 20px;
+        }
+        .review {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .logo {
+            
+            margin-right: 10px;
+        }
+        .services-section {
+            text-align: center;
+        }
+        .service-item {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+        .footer {
+                                  background-color: rgba(0, 0, 0, 0.7);
+                                  /* Black translucent background */
+                                  text-align: left;
+                                  padding: 10px 0;
+                                  /* Increased footer height */
+                                }
+                
+                                .footer-content,
+                                .additional-content {
+                                  font-size: 17px;
+                                }
+                
+                                .footer p {
+                                  margin: 5px 0;
+                                }
+                
+                                .footer a {
+                                  color: #fff;
+                                  text-decoration: none;
+                                }
+                
+                                .footer a:hover {
+                                  text-decoration: underline;
+                                }
+                
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">
+            <img class="logo" src="logo final.jpg" alt="logo" height="70px" width ="100px"> 
+        </a>
+        <div class="navbar-right">
+            <a href="#dashboard">Dashboard</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#help">Need Help</a>
+            <a href="#signin">Sign In</a>
+        </div>
+    </div>
+    <div class="container">
+        <img src="cover pic.jpg" width="100%" height="50%">
+        <a class="button" href="#">Start Your 30 Days Free Trial</a>
+
+    </div>
+   
+    <div class="services-section">
+        <h2>With our service, you can expect :-</h2>
+        <div class="service-item">
+            <img src="goals final.gif" alt="Service 1" height="350px" width="350px">
+            
+        </div>
+        <div class="service-item">
+            <img src="budget gif.gif" alt="Service 2" height="350px" width="350px">
+                    </div>
+        <div class="service-item">
+            <img src="financial- suggestion gif.gif" alt="Service 3" height="350px" width="350px">
+            
+        </div>
+        <div class="service-item">
+            <img src="ai gif.gif" alt="Service 3" height="350px" width="350px">
+            
+        </div>
+    </div>
+    <div class="reviews">
+        <div class="container">
+            <h2 style="color: khaki;">Reviews and Ratings by our Users</h2>
+            <div class="review">
+                <h3 style="color: lightpink;">Rajeev Tandon</h3>
+                <p>I have been using Financia over a period of time, and I am extremely satisfied with their services.</p>
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+            </div>
+            <div class="review">
+                <h3 style="color:lightpink;">Kavya Srivastava</h3>
+                <p>I started using Financia since last week and it has been a gamechanger for my finances. They helped me make smart investment and reduce my debt.</p>
+                <div class="rating">⭐⭐⭐⭐</div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2023 Your Financial Company</p>
+          <p>Contact us at info@yourfinancialcompany.com</p>
+        </div>
+        <div class="additional-content">
+          <p>Address: 123 Main Street, Financial District</p>
+          <p>Phone: +1 (123) 456-7890</p>
+        </div>
+</body>
+</html>
